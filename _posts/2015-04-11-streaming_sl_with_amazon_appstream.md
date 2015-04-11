@@ -32,6 +32,7 @@ tl;dr:  It works, but it's expensive and nowhere near being useful for just casu
  * Unable to zoom and all text so small as to be nearly unreadable.
  * Fat-fingered go back killed the session.
  * Didn't have a chance to try chattng, but it would have been painful.
+ * Pricing is $0.83USD/hr per user session with a starting limit of ten simultaneous users. Extending the limit is possible, but Amazon wants to know how many users you want to be able to support. There's no automatic scaling.
 
 
 ## Initial Questions
@@ -40,9 +41,16 @@ tl;dr:  It works, but it's expensive and nowhere near being useful for just casu
  * Q: How to observe the applictation launch process for debugging?
  * Q: How to gather application logs? (Found a partial answer, but unresolved)
  * Q: How to detect and recover from application crashes?
- 
-I'll dig deeper and start prototyping a new intergrated client, probably on Chrome or Linux first for convenience.
+ * Q: How much cheaper are reserved streams.
+ * Q: What will it take to just replace this with dedicated hardware.
 
-These will be [open source at Github](https://github.com/BrightCanopy) assuming the other licensing allows it.
+## Conclsions
+
+ * AppStream might work for prototyping, but it looks too expensive to work as a permanent solution. It will be worth exploring just building our own h.264 or even V9 streaming cluster. 
+
+
+## Follow-Up
+
+  * For completeness sake, I'll dig deeper and start prototyping a new intergrated client, probably on Chrome or Linux first for convenience. These will be [open source at Github](https://github.com/BrightCanopy) assuming the other licensing allows it.
 
 More to come.
