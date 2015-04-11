@@ -7,7 +7,7 @@ title:            Bright Canopy Blog
 tagline:          SL Anywhere
 url:              http://www.brightcanopy.com
 paginate:         1
-baseurl:          http://brightcanopy.github.io/blog.
+baseurl:          http://brightcanopy.github.io/blog/
 author:
   name:           Bill Glover
   url:            https://twitter.com/BrightCanopyApp
