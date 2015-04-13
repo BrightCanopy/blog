@@ -3,7 +3,7 @@ layout: post
 title: And Then There Was Frame
 ---
 
-*update* The Frame team read this post and enabled an upload button directly to the instance uploads directory (it's wiped after each session, so that's reasonable option), dropbox button (your dropbox mounts as drive G:) and a clipboard function that lets you cut and paste into the terminal. Looks like we're partnering with the right bunch of people!
+**update** *The Frame team read this post and enabled an upload button directly to the instance uploads directory (it's wiped after each session, so that's reasonable option), dropbox button (your dropbox mounts as drive G:) and a clipboard function that lets you cut and paste into the terminal. Looks like we're partnering with the right bunch of people!*
 
 If you've been following this blog, you know that I gave AppStream a test drive and the results were promising, but not nearly ready for use. That was Saturday. It's been a whole day since then and things have moved along rapidly. Nikola Bozinovic, [founder of Frame](https://fra.me), contacted me and offered to help us out. Frame has a very mature and polished platform for sharing Windows apps over browsers and even native clients on PC, Mac, Tablets and Phones. They have really done alot of work here, and the performance and management tools are about a year or more ahead of Amazon's AppStream offering. 
 
