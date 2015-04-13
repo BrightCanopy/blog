@@ -3,13 +3,13 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        none
-relative_permalinks: false
+permalink:        pretty
+relative_permalinks: true
 
 # Setup
 title:            Bright Canopy Blog
 tagline:          SL Anywhere
-url:              http://www.brightcanopy.com
+url:              http://www.brightcanopy.com/
 paginate:         1
 baseurl:          http://www.brightcanopy.com/blog/
 author:
