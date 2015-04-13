@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on Streaming SL wht Amazon AppStream
+title: Notes on Streaming SL With Amazon AppStream
 ---
 
 I'm in a hotel room in Reno for a conference, but I'm grabbing what time I can to do some quick proof of concept stuff.
@@ -25,32 +25,32 @@ tl;dr:  It works, but it's expensive and nowhere near being useful for just casu
  * Mouselook is erratic and Esc and Alt seem to be bound to shortcuts.
  * No sound of any kind on Chromebook
  * Exiting the the viewer crashed the example chrome client. 
- * Loaded the Andriod client and tested on a Samsung S4
+ * Loaded the Android client and tested on a Samsung S4
  * No mobile friendly controls obviously, but hacker keyboard arrows work.
  * Maximum graphics settings work.
  * No sound here either.
  * Unable to zoom and all text so small as to be nearly unreadable.
  * Fat-fingered go back killed the session.
- * Didn't have a chance to try chattng, but it would have been painful.
+ * Didn't have a chance to try chatting, but it would have been painful.
  * Pricing is $0.83USD/hr per user session with a starting limit of ten simultaneous users. Extending the limit is possible, but Amazon wants to know how many users you want to be able to support. There's no automatic scaling.
 
 
 ## Initial Questions
 
  * Q: Will it take 30 minutes to an hour to deploy upgraded apps?
- * Q: How to observe the applictation launch process for debugging?
+ * Q: How to observe the application launch process for debugging?
  * Q: How to gather application logs? (Found a partial answer, but unresolved)
  * Q: How to detect and recover from application crashes?
  * Q: How much cheaper are reserved streams.
  * Q: What will it take to just replace this with dedicated hardware.
 
-## Conclsions
+## Conclusions
 
  * AppStream might work for prototyping, but it looks too expensive to work as a permanent solution. It will be worth exploring just building our own h.264 or even V9 streaming cluster. 
 
 
 ## Follow-Up
 
-  * For completeness sake, I'll dig deeper and start prototyping a new intergrated client, probably on Chrome or Linux first for convenience. These will be [open source at Github](https://github.com/BrightCanopy) assuming the other licensing allows it.
+  * For completeness sake, I'll dig deeper and start prototyping a new integrated client, probably on Chrome or Linux first for convenience. These will be [open source at Github](https://github.com/BrightCanopy) assuming the other licensing allows it.
 
 More to come.
